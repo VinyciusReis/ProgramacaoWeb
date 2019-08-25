@@ -1,0 +1,147 @@
+table,tr{
+
+border-width: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+border-collapse: collapse;
+
+}
+
+table {
+
+font-family: Arial;
+
+}
+
+tr td:first-child {
+
+font-weight: bold;
+font-size: 18px;
+text-align: center;
+
+
+}
+
+
+
+th {
+
+font-weight: bold;
+font-size: 13px;
+color: #999999;
+text-align: center;
+width: 30px;
+padding: 2px;
+
+}
+
+th:last-child {
+
+width: 1px;
+
+}
+
+
+tfoot tr td:first-child{
+
+color: rgb(255,0,0);
+
+}
+
+#tbody1 tr td:first-child {
+
+color: #DE9800;
+
+}
+
+#tbody2 tr td:first-child {
+
+color: #CCCCCC;
+
+}
+
+thead tr td:first-child{
+
+color: #003366;
+
+}
+
+thead,#tbody2 {
+
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: #CCCCCC;
+
+}
+
+.nome-times {
+
+font-size: 14px;
+color: #666666;
+font-weight: bold;
+text-align: left;
+padding-right: 36px;
+
+}
+
+.cel-pontos {
+
+font-weight: bold;
+text-align: center;
+font-size: 14px;
+
+
+}
+
+.demais-colunas {
+
+text-align: center;
+font-size: 14px;
+color:  #666666;
+
+}
+
+.fundo-diferente {
+
+background-color: #F7F7F7;
+
+}
+
+div p:first-child {
+
+
+text-align: left;
+font-size: 10px;
+color:  #8F8F8F;
+text-transform: uppercase;
+
+}
+
+span {
+
+font-size: 10px;
+color: #555555;
+text-align: left;
+font-weight: bold;
+
+}
+
+div p:last-child {
+
+font-size: 10px;
+color: #555555;
+text-align: left;
+
+
+}
+
+div {
+
+border-width: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+display: inline-block;
+
+}
+
+
