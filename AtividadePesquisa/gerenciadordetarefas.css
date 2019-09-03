@@ -1,0 +1,47 @@
+
+div {
+
+    text-align: center;
+    background-color: lightgreen;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+input,button {
+
+    border: none;
+    padding: 10px 30px 10px 30px;
+    width: 200px;
+
+}
+
+
+div#exibir p:hover {
+
+    background-color: lightblue;
+    
+
+
+}
+
+div#exibir p {
+
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+
+    margin-right: 20px;
+
+}
+

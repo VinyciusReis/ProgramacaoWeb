@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Gerenciador de Tarefas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="gerenciadordetarefas.css">
+
+</head>
+<body>
+
+    <div>
+
+        <h1>Gerenciador de Tarefas</h1>
+        <form>
+
+            <p>Escreva sua tarefa abaixo</p>
+            <input id="entrada_tarefa" type="text" name="nome_tarefa">
+            <button type="button" onclick="adicionarTarefa()">Adicionar </button>
+            <button>Editar</button>
+            <button type="button" onclick="removerTarefa()">Remover</button>
+
+            <script>
+            
+            var tarefas = [];
+            var nome_tarefa;
+            var indice = 0;
+            var valorAtributo;
+
+            function adicionarTarefa(){
+
+                nome_tarefa = document.getElementById("entrada_tarefa");
+
+                tarefas[indice] = nome_tarefa.value;
+
+                alert(tarefas[indice]);
+
+                ValorAtributo = "p" + indice;
+
+                var para = document.createElement("p");
+                var node = document.createTextNode(tarefas[indice]);
+                
+
+                para.appendChild(node);
+
+                para.setAttribute("id",valorAtributo);
+                para.setAttribute("onclick","incluirTarefa()");
+
+                
+
+                document.getElementById("exibir").appendChild(para);
+
+                indice++;
+                
+                
+
+            }
+
+           function incluirTarefa(){
+
+            var elemento = document.get
+            
+
+        
+
+
+            }
+
+            function removerTarefa(){
+
+                var elemento = document.getElementById
+
+
+            }
+
+            </script>
+            
+
+        </form>
+        
+        </div>
+       
+        <div id="exibir">
+
+            <script>
+
+              
+                </script>
+        
+
+
+    </div>
+
+</body>
+
+
+</html>
