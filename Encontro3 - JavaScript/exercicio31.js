@@ -1,0 +1,1 @@
+alert(Number.parseInt(Math.random()*10));
